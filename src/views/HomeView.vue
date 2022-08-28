@@ -23,8 +23,6 @@ export default {
   },
   methods: {
     indexApis: function () {
-
-
       // axios
       //   .all([
       //     axios.get("https://api.github.com/vuejs/vue"), 
@@ -48,6 +46,10 @@ export default {
         this.apis = response.data;
       })
     },
+
+    updateApis: function () {
+      axios.post()
+    }
   },
 };
 </script>
@@ -59,13 +61,15 @@ export default {
       Log in with Github ID
     </a>
     <p>{{ this.apis }}</p>
-    <!-- <div v-for="api in apis" :key="api.id">
+
+    <div v-for="api in apis" :key="api.id">
       <h3>
         {{api.stars}} Stars
         {{api.watchers}} Watchers
         {{api.forks}} Forks
       </h3>
-    </div> -->
+    </div>
+
   </div>
 </template>
 
