@@ -25,5 +25,6 @@ export default {
     <h1>GitHub profile!</h1>
     <h2>{{ profile.name }}</h2>
     <img v-bind:src="profile.avatar_url" alt="" />
+    <p>{{profile}}</p>
   </div>
 </template>

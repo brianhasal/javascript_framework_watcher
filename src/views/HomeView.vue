@@ -26,10 +26,10 @@ export default {
       // axios
       //   .all([
       //     axios.get("https://api.github.com/vuejs/vue"), 
-      //     axios.get("https://github.com/angular/angular.js"),
-      //     axios.get("https://github.com/emberjs/ember.js"),
-      //     axios.get("https://github.com/sveltejs/svelte"),
-      //     axios.get("https://github.com/facebook/react")
+      //     axios.get("https://api.github.com/angular/angular.js"),
+      //     axios.get("https://api.github.com/emberjs/ember.js"),
+      //     axios.get("https://api.github.com/sveltejs/svelte"),
+      //     axios.get("https://api.github.com/facebook/react")
       //     ])
       //   .then(
       //     axios.spread(function (response1, response2, response3, response4, response5) {
@@ -47,9 +47,9 @@ export default {
       })
     },
 
-    updateApis: function () {
-      axios.post()
-    }
+    // updateApis: function () {
+    //   axios.post()
+    // }
   },
 };
 </script>
